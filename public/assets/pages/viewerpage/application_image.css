@@ -29,6 +29,7 @@ body:not(.dark-mode) .component_imageviewer .component_image_container .fullscre
 .component_imageviewer img.photo {
     margin: 10px;
     width: fit-content;
+    object-fit: contain;
     max-width: 98%;;
     min-height: 100px;
     max-height: 100%;
